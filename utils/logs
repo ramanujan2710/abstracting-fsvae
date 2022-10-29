@@ -185,3 +185,14 @@ DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Locati
 DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x01'
 DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 58 - Data Location: 90 - value: b'picnik.com\x00'
 DEBUG:PIL.TiffImagePlugin:tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00\x01\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00\x01\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 58 - Data Location: 90 - value: b'picnik.com\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'

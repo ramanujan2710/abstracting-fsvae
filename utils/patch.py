@@ -26,10 +26,10 @@ def get_args():
     return parser.parse_args()
     
 
-def generate_model(args):
+def generate_model(model_path_, device_ ):
 	
 	#generates the model for embeds	
-	return CLIPEmbedding( model_path = args.model_path, device = args.device) #defaults to 'cpu')
+	return CLIPEmbedding( model_path = model_path_, device = device_) #defaults to 'cpu')
 	 
 	
 def embed(model, data = None):
@@ -60,7 +60,7 @@ if __name__ == "__main__":
     # get the arguments and create the model
     # use the model to generate embeddings for the data
     args = get_args() 
-    model = generate_model(args)
+    model = generate_model(args.model_path, args.device)
     
     if os.path.isdir(args.data):
         
