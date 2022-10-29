@@ -1,0 +1,187 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 140374764921728 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/a2a88b96561196777ca173b15309ea859f4d2ce0.lock
+DEBUG:filelock:Lock 140374764921728 acquired on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/a2a88b96561196777ca173b15309ea859f4d2ce0.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 4186
+DEBUG:filelock:Attempting to release lock 140374764921728 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/a2a88b96561196777ca173b15309ea859f4d2ce0.lock
+DEBUG:filelock:Lock 140374764921728 released on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/a2a88b96561196777ca173b15309ea859f4d2ce0.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+DEBUG:filelock:Attempting to acquire lock 140374764922112 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f.lock
+DEBUG:filelock:Lock 140374764922112 acquired on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://cdn-lfs.huggingface.co:443 "GET /openai/clip-vit-base-patch32/a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f?response-content-disposition=attachment%3B%20filename%3D%22pytorch_model.bin%22&Expires=1667303729&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL29wZW5haS9jbGlwLXZpdC1iYXNlLXBhdGNoMzIvYTYzMDgyMTMyYmE0Zjk3YTgwYmVhNzY4MjNmNTQ0NDkzYmZmYTgwODIyOTZkNjJkNzE1ODFhNGZlZmYxNTc2Zj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0IlMjBmaWxlbmFtZSUzRCUyMnB5dG9yY2hfbW9kZWwuYmluJTIyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjY3MzAzNzI5fX19XX0_&Signature=N6Lirqpvso5IliGOtLnQ52eUaGQYw-cevrqSRoasdQSrwPXmi91rgJ6v1KzjcuYmq~Z9jJHIaPK5THy5CDP8p28edXQud0X4VqwwzliqVgDAPVWlHv0AXHGLK2sIQg4ZJCSgZe0lNZV5dZd-wCtk0MYZ4MNO8NxQnTB8DwirrAYgceYa6xmtIercLCS2zNKnKD8buyeD~5ND-J2vmiK4UckIifrPFT3U8cu6Tt7IKSr4928ldpmB9VTI7f66D1R8TnCZ0cig3RRNSIbapc8cxa0gt4ICCtXaa42bzFtlv31keNTL36dGLdz9~5RCjQmGq89eSKOAdOHr6q3btlbGWg__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 605247071
+DEBUG:filelock:Attempting to release lock 140374764922112 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f.lock
+DEBUG:filelock:Lock 140374764922112 released on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 140374764925424 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/5a12a1eb250987a4eee0e3e7d7338c4b22724be1.lock
+DEBUG:filelock:Lock 140374764925424 acquired on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/5a12a1eb250987a4eee0e3e7d7338c4b22724be1.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 316
+DEBUG:filelock:Attempting to release lock 140374764925424 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/5a12a1eb250987a4eee0e3e7d7338c4b22724be1.lock
+DEBUG:filelock:Lock 140374764925424 released on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/5a12a1eb250987a4eee0e3e7d7338c4b22724be1.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 140374764926000 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/ab0ca294e9ef2a950015496bc13b84e1bb462b09.lock
+DEBUG:filelock:Lock 140374764926000 acquired on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/ab0ca294e9ef2a950015496bc13b84e1bb462b09.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 568
+DEBUG:filelock:Attempting to release lock 140374764926000 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/ab0ca294e9ef2a950015496bc13b84e1bb462b09.lock
+DEBUG:filelock:Lock 140374764926000 released on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/ab0ca294e9ef2a950015496bc13b84e1bb462b09.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/vocab.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 140374757653472 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/182766ce89b439768edadda342519f33802f5364.lock
+DEBUG:filelock:Lock 140374757653472 acquired on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/182766ce89b439768edadda342519f33802f5364.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /openai/clip-vit-base-patch32/resolve/main/vocab.json HTTP/1.1" 200 862328
+DEBUG:filelock:Attempting to release lock 140374757653472 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/182766ce89b439768edadda342519f33802f5364.lock
+DEBUG:filelock:Lock 140374757653472 released on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/182766ce89b439768edadda342519f33802f5364.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/merges.txt HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 140374757641856 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/bbfec752c9a675946c6dce106def6f35c882dcc2.lock
+DEBUG:filelock:Lock 140374757641856 acquired on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/bbfec752c9a675946c6dce106def6f35c882dcc2.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /openai/clip-vit-base-patch32/resolve/main/merges.txt HTTP/1.1" 200 524657
+DEBUG:filelock:Attempting to release lock 140374757641856 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/bbfec752c9a675946c6dce106def6f35c882dcc2.lock
+DEBUG:filelock:Lock 140374757641856 released on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/bbfec752c9a675946c6dce106def6f35c882dcc2.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 140374757651072 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/564c0ebd5ce29c4ee4864004aee693deadd3128c.lock
+DEBUG:filelock:Lock 140374757651072 acquired on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/564c0ebd5ce29c4ee4864004aee693deadd3128c.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /openai/clip-vit-base-patch32/resolve/main/tokenizer.json HTTP/1.1" 200 2224041
+DEBUG:filelock:Attempting to release lock 140374757651072 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/564c0ebd5ce29c4ee4864004aee693deadd3128c.lock
+DEBUG:filelock:Lock 140374757651072 released on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/564c0ebd5ce29c4ee4864004aee693deadd3128c.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/added_tokens.json HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+DEBUG:filelock:Attempting to acquire lock 140374757653472 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/9bfb42aa97dcd61e89f279ccaee988bccb4fabae.lock
+DEBUG:filelock:Lock 140374757653472 acquired on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/9bfb42aa97dcd61e89f279ccaee988bccb4fabae.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /openai/clip-vit-base-patch32/resolve/main/special_tokens_map.json HTTP/1.1" 200 389
+DEBUG:filelock:Attempting to release lock 140374757653472 on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/9bfb42aa97dcd61e89f279ccaee988bccb4fabae.lock
+DEBUG:filelock:Lock 140374757653472 released on /home/amaldev/.cache/huggingface/hub/models--openai--clip-vit-base-patch32/blobs/9bfb42aa97dcd61e89f279ccaee988bccb4fabae.lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00\x01\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00\x01\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 58 - Data Location: 90 - value: b'picnik.com\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00\x01\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00\x01\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 58 - Data Location: 90 - value: b'picnik.com\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00\x01\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00\x01\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 58 - Data Location: 90 - value: b'picnik.com\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00\x01\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00\x01\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 58 - Data Location: 90 - value: b'picnik.com\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/preprocessor_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /openai/clip-vit-base-patch32/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00\x01\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00\x01\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 58 - Data Location: 90 - value: b'picnik.com\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
