@@ -1,0 +1,1 @@
+The system consists of multiple spiking variational autoencoder modules arranged in an ensemble configuration. Each module employs leaky integrate-and-fire neurons throughout both encoder and decoder pathways, with spike-timing dependent plasticity governing synaptic updates.
